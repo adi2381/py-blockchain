@@ -5,11 +5,11 @@ blockchain shouldn't be just used just because it sounds cool, or it's in trend,
 This is my first attempt at coding a blockchain with basic functionality, once completed, I'll write a blog post for the same on my Medium profile. 
 
 ## Phases
-<strike> Create a Chain of Data </strike>
-<strike> Mine Blocks </strike>
-<strike> Block Hashing </strike>
-<strike> Analyze and Verify the Chain </strike>
-<strike> Perform Transactions </strike>
+* <strike> Create a Chain of Data </strike>
+* <strike> Mine Blocks </strike>
+* <strike> Block Hashing </strike>
+* <strike> Analyze and Verify the Chain </strike>
+* <strike> Perform Transactions </strike>
 * Store Chain to Disk
 * Create a Node Network
 * Share the data and Resolve conflicts
