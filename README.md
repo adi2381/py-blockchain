@@ -83,8 +83,9 @@ creates a wallet.txt file with your port number that contains information regard
 `localhost:5000/balance`
 
 ### Node/Server
-- You can run multiple nodes and test communication between the two by opening two terminals inside **vs code** and executing the **python node.py** file with arguments **-p 5001** or **--port 5001**. So, it will look like **python node.py -port 5001**
-- You can create as many nodes/servers you want by using the open ports and appending them to the **python node.py --port <port_number>** command
+You can run multiple nodes and test communication between the two by opening two terminals inside **vs code** and executing the **python node.py** file with arguments **-p 5001** or **--port 5001**. So, it will look like **python node.py -port 5001**
+
+You can create as many nodes/servers you want by using the open ports and appending them to the **python node.py --port <port_number>** command
 
 * [POST] Add Peer Node to Your Chain Network:
 
