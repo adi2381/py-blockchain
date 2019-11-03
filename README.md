@@ -1,4 +1,5 @@
 
+
 # Blockchain Project
 This project is an implementation of blockchain and it's concepts in Python & Flask with Postman used for API development
 
@@ -8,29 +9,31 @@ This project is an implementation of blockchain and it's concepts in Python & Fl
 2. [Download Visual Studio Code](https://code.visualstudio.com/)
 3. [Download Postman](https://www.getpostman.com/)
 4. Clone the directory and open it in **vs code**
-5. In terminal, enter *activate* to activate the *base* environment of Anaconda
-> *Install all the below dependencies to avoid any errors*
+5. In terminal, enter **activate** to activate the **base** environment of Anaconda
+> *Install all the below dependencies to avoid any errors incase they're not already installed*
 6. Install Flask
 
-``` pip install flask ```
+`pip install flask`
 
 7. Install Flask-Cors
 
-``` pip install -U flask-cors	```
+`pip install -U flask-cors`
 
 8. Install requests Lib
 
-``` pip install requests ```
+`pip install requests`
 
 9. Install pycrypto (collection of hash functions)
 
-``` pip install pycrypto ```
+`pip install pycrypto`
 
 10.  In the terminal, run the following command
 
-` python node.py ` 
-or to run multiple nodes, in a new terminal
-`python node.py -p <port_number>` 
+`python node.py` 
+
+> *or to run multiple nodes, in a new terminal*
+
+`python node.py -p<port_number>` 
 
 11. Open Postman Client, Test the below API Calls
 
@@ -38,7 +41,7 @@ or to run multiple nodes, in a new terminal
 Below is a list of API calls and short description about what they do, these api calls can conveniently be executed in Postman
 Localhost & Port have been set in node.py file, by default I've set them as 0.0.0.0 with port=5000
 
-1. Blockchain:
+1. Blockchain: Creates a blockchain.txt file that contains information regarding the transactions and other information related to the blockchain
 
 * [POST] Mine a Block:
 
@@ -57,16 +60,13 @@ Localhost & Port have been set in node.py file, by default I've set them as 0.0.
 Before executing the above api call, in Postman, 
 Go to "Body" > "Raw" > Select "Json" in the current window and enter the following data:
 
-`
-eg. { "recipient": "NameofRecipient",
-"amount": 5 }
-`
+`eg. { "recipient": "NameofRecipient", "amount": 5 }`
 
 * [GET] Get a List of all Open Transactions:
 
 `localhost:5000/transactions`
 
-3. Wallet:
+3. Wallet: creates a wallet.txt file with your port number that contains information regarding your wallet such as public key, private key
 
 * [POST] Generate Wallet:
 
@@ -91,9 +91,7 @@ eg. { "recipient": "NameofRecipient",
 Before executing the above api call, in Postman, 
 Go to "Body" > "Raw" > Select "Json" in the current window and enter the following data:
 
-`
-e.g. { "node": "localhost:5001" }
-`
+`e.g. { "node": "localhost:5001" }`
 
 * [DELETE] Delete Peer Node:
 
