@@ -110,6 +110,7 @@ Go to "Body" > "Raw" > Select "Json" in the current window and enter the followi
 * node_console.py - provides a user interface using while loop to interact with blockchain from within the vs code terminal
 * transaction.py - represents open transactions
 * wallet.py - Implements functionality to generate wallet, public & private key and other security related algorithm
+* API_calls_screenshot Folder - contains screenshots of successful API calls and their output
 * Utility > hash_util.py - Implements functionality to hash a block 
 * Utility > printable.py - Converts binary data to string for printing in console
 * Utility > verification.py - Implements proof of work and verification of chain and transactions
