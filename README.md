@@ -1,6 +1,5 @@
-
-
 # Blockchain Project
+<img src="https://github.com/adi2381/py-blockchain/blob/master/repo_cover.png" height="320" width="450">
 This project is an implementation of blockchain and it's concepts in Python & Flask with Postman used for API development
 
 ## Getting Started
