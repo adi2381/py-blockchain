@@ -10,7 +10,7 @@ This project is an implementation of blockchain and it's concepts in Python & Fl
 3. [Download Postman](https://www.getpostman.com/)
 4. Clone the directory and open it in **vs code**
 5. In terminal, enter **activate** to activate the **base** environment of Anaconda
-> *Install all the below dependencies to avoid any errors incase they're not already installed*
+> *Install the below dependencies to avoid any errors incase they're not already installed*
 6. Install Flask
 
 `pip install flask`
@@ -41,7 +41,8 @@ This project is an implementation of blockchain and it's concepts in Python & Fl
 Below is a list of API calls and short description about what they do, these api calls can conveniently be executed in Postman
 Localhost & Port have been set in node.py file, by default I've set them as 0.0.0.0 with port=5000
 
-1. Blockchain: Creates a blockchain.txt file that contains information regarding the transactions and other information related to the blockchain
+### Blockchain 
+Creates a blockchain.txt file that contains information regarding the transactions and other information related to the blockchain
 
 * [POST] Mine a Block:
 
@@ -51,7 +52,7 @@ Localhost & Port have been set in node.py file, by default I've set them as 0.0.
 
 `localhost:5000/chain`
 
-2. Transaction:
+### Transaction
 
 * [POST] Add a New Transaction:
 
@@ -66,7 +67,8 @@ Go to "Body" > "Raw" > Select "Json" in the current window and enter the followi
 
 `localhost:5000/transactions`
 
-3. Wallet: creates a wallet.txt file with your port number that contains information regarding your wallet such as public key, private key
+### Wallet
+creates a wallet.txt file with your port number that contains information regarding your wallet such as public key, private key
 
 * [POST] Generate Wallet:
 
@@ -80,7 +82,7 @@ Go to "Body" > "Raw" > Select "Json" in the current window and enter the followi
 
 `localhost:5000/balance`
 
-4. Node (server):
+### Node/Server
 - You can run multiple nodes and test communication between the two by opening two terminals inside **vs code** and executing the **python node.py** file with arguments **-p 5001** or **--port 5001**. So, it will look like **python node.py -port 5001**
 - You can create as many nodes/servers you want by using the open ports and appending them to the **python node.py --port <port_number>** command
 
