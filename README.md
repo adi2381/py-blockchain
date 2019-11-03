@@ -10,7 +10,7 @@ This is my first attempt at coding a blockchain with basic functionality, once c
 * <strike> Block Hashing </strike>
 * <strike> Analyze and Verify the Chain </strike>
 * <strike> Perform Transactions </strike>
-* Store Chain to Disk
+* <strike> Store Chain to Disk </strike>
 * Create a Node Network
 * Share the data and Resolve conflicts
 * Create a Wallet
