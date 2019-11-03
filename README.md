@@ -112,7 +112,9 @@ e.g. { "node": "localhost:5001" }
 * wallet.py - Implements functionality to generate wallet, public & private key and other security related algorithm
 * Utility > hash_util.py - Implements functionality to hash a block 
 * Utility > printable.py - Converts binary data to string for printing in console
-* Utility > verification.py - Implements proof of work and verification of chain and transactions 
+* Utility > verification.py - Implements proof of work and verification of chain and transactions
+
+* Legacy_blockchain_files - contains old files related to project
 
 ## Shoutout
 Huge credits to Dapp university & howCode for explaining the concepts and how to implement them in python. 
