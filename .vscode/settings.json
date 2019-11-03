@@ -1,5 +1,3 @@
 {
-    "python.pythonPath": "C:\\Users\\Aditya\\AppData\\Local\\Programs\\Python\\Python36-32\\python.exe",
-    "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true
+    "python.pythonPath": "C:\\Users\\Aditya\\AppData\\Local\\Continuum\\anaconda3\\python.exe"
 }
